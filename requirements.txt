@@ -1,0 +1,4 @@
+scipy
+pandas
+lmfit>=0.9.7
+xmltodict
