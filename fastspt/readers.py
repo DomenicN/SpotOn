@@ -3,7 +3,7 @@
 ## readers.py imports many file formats widespread in SPT analysis
 ## Imported from Spot-On
 
-import format4DN
+import fastspt.format4DN
 import scipy.io, os, json, xmltodict
 import numpy as np
 import pandas as pd

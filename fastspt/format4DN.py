@@ -3,7 +3,7 @@
 # So far, the 4DN format is documented on: https://docs.google.com/document/d/1SKljQyuTNtKQOxOD5AC9ZBqZZETDXtUz1BImGZ99Z3M/edit#
 # By MW, GPLv3+, Jun 2018
 
-import readers
+import fastspt.readers
 import pandas as pd
 from itertools import takewhile
 

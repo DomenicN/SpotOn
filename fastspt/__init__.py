@@ -1,9 +1,9 @@
 from fastspt.fastspt import *
-from version import __version__
+from .version import _version_
 
-import fastSPT_tools, readers, writers
+import fastspt.fastSPT_tools, fastspt.readers, fastspt.writers
 try:
-	import fastSPT_plot
+	import fastspt.fastSPT_plot
 except Exception as e:
 	print("Could not import the plot submodule, error:")
 	print(e)
