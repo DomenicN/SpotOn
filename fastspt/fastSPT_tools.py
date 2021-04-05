@@ -14,7 +14,7 @@ def list_sample_datasets(path):
     sys.path.append(path)
     import datasets
     reload(datasets) # Important I think
-    return datasets.list(path, string=True)
+    return datasets.list_dataset(path, string=True)
 
 def load_dataset(path, datasetID, cellID):
     """Simple helper function to load one or several cells from a dataset"""
@@ -22,7 +22,7 @@ def load_dataset(path, datasetID, cellID):
     sys.path.append(path)
     import datasets
     reload(datasets) # Important I think
-    li = datasets.list(path, string=False)
+    li = datasets.list_dataset(path, string=False)
 
     if type(cellID) == int:
         cellID = [cellID]
